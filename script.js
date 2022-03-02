@@ -1,9 +1,9 @@
 const persons=[
-{ name: 'dima', login:'dima', password:'1234', key:'' },
-{ name: 'donni',login:'Donni', password:'1234', key:'' },
-{ name: 'alon', login:'alon', password:'1234', key:'' },
-{ name: 'Tolik', login:'Tolik', password:'1234', key:'' },
-{ name: 'evgeny', login:'evgeny',login:'Evgeny', password:'1234', key:'' },
+{ name: 'Dima', login:'dima',login:'Dima', password:'1234', key:'' },
+{ name: 'Donni',login:'Donni', password:'1234', key:'' },
+{ name: 'Alon', login:'alon',login:'Alon', password:'1234', key:'' },
+{ name: 'Tolik', login:'tolik',login:'Tolik', password:'1234', key:'' },
+{ name: 'Evgeny', login:'evgeny',login:'Evgeny', password:'1234', key:'' },
 ];
 
 
