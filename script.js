@@ -11,11 +11,20 @@ const persons=[
             login: prompt('login'),
             password: prompt('password')   
         }
+    // function click(){
+        // if (persons === login && persons === password){
+            // window.location.href = 'index2.html';
+        // }
+    
+        // let login = document.getElementById("login").value;
+        // let password = document.getElementById("password").value;
+    // }  
 
     for(let i = 0; i < persons.length; i++){
         if(user_persons.login === persons[i].login && user_persons.password === persons[i].password){
             alert('Hello ' + persons[i].name+'!!!');
-            // window.location.href = 'index2.html';
+            // click();
+            window.location.href = 'index2.html';
             break;
         }else if (i === persons.length -1){
             console.log('problem');
