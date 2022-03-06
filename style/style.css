@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+
+}
+
+.title{
+    padding-top: 15% 15% 15% 15%;
+   
+}
+#logic{
+    /* align-items: center; */
+    /* padding:  15% 25% 15% 0; */
+    margin: 10px 40px ;
+}
+#sliders{
+    width : 675px;
+    height: 700px;
+    border: 3px solid black;
+    position: relative;
+    overflow: hidden;
+}
+#slider_1 ,#slider_2{
+    width: 675px;
+    height: 700px;
+    position: absolute;
+    left:0;
+    top: 0;
+    overflow: hidden;
+}
+#slider_1{
+    /* background: #000; */
+    /* max-height: 100%; */
+    /* max-width: 100%; */
+}
+#slider_2{
+    /* background: #244; */
+    /* max-height: 100%; */
+    /* max-width: 100%; */
+}
+img{
+    /* max-height: 100%; */
+    /* max-width: 100%; */
+    /* object-fit: contain; */
+}
